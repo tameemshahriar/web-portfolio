@@ -10,8 +10,9 @@ h1{
 
 h2{
     font-size: 40px;
+    text-align: ;
 }
-.orange-highlight {
+.blue-highlight {
     color: rgb(47, 14, 165);
 }
 
@@ -37,6 +38,7 @@ h2{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 350px;
 
 
 }
@@ -62,10 +64,36 @@ section {
     height: 80%;
 }
 
-.experience-area {
-   
+#h2exp{
+    text-align: center;
+}
+
+.experience-area{
+
+    
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 
 }
+
+#product{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(crimson,tomato);
+    border-image-slice: 1;
+}
+
+#full-stack{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,purple);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 12px;
+}
+
